@@ -13,13 +13,14 @@ public class SingleLinkedListEx {
     mylist.addNode(2);
     mylist.addNode(3);
     //System.out.println(mylist.head.next.data);
-    mylist.addNodeInside(5, 1);
+    //mylist.addNodeInside(5, 1);
     mylist.printAll();
-    mylist.delNode(3);
+    mylist.delNode2(1);
+   mylist.delNode2(3);
+
+
 
     mylist.printAll();
-
-
   }
 
 }
