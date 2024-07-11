@@ -1,4 +1,4 @@
-package collection.collectionEx.board;
+package collection.board;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

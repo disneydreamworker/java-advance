@@ -1,4 +1,4 @@
-package collection.collectionEx.list;
+package collection.list;
 
 public class ArrayEx01 {
 

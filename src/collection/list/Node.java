@@ -1,4 +1,4 @@
-package collection.collectionEx.list;
+package collection.list;
 
 //노드 만들어보기
 public class Node<T> {

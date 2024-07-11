@@ -1,10 +1,20 @@
-package collection.collectionEx.list;
+package collection.list.linkedlist;
 
 public class SingleLinkedList<T> {
 
   //head 멤버 변수
-  public Node head = null;
+  public Node<T> head = null;
 
+  //이너 클래스 노드 생성 -> 다른 클래스임
+  public class Node<T> {
+    T data;
+    Node<T> next = null;
+    Node<T> previous = null;
+
+    public Node(T data) {
+      this.data = data;
+    }
+  }
 
   //노드 추가하기
   public void addNode(T data) {
@@ -20,14 +30,6 @@ public class SingleLinkedList<T> {
     }
   }
 
-  public class Node<T> {
-    T data;
-    Node<T> next = null;
-
-    public Node(T data) {
-      this.data = data;
-    }
-  }
 
   public void printAll(){
     if (head != null) {
