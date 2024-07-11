@@ -53,5 +53,8 @@ public class NodeMgmt {
 
   }
 
+   //search()
 
+
+    //delete() 기능 보완하기
 }
