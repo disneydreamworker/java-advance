@@ -26,6 +26,7 @@ public class BookComparartorEx {
     };
 
     Collections.sort(bookshelf, new BookComparator());
+
     for (Book2 book2 : bookshelf) {
       System.out.println(book2.getTitle() + " " + book2.getWriter() + "  " + book2.getYear());
     }
