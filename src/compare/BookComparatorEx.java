@@ -51,7 +51,24 @@ public class BookComparatorEx {
       System.out.println(booklist.get(i).getYear() + " " + booklist.get(i).getSubject());
     }
 // 3. 기준1 : 출판년도 최신 기준2 : 출판년도가 같다면 제목의 글자수로 내림차순 기준3. 출판년도, 제목의 글자수까지 같다면 , 제목 내림차순
+    Collections.sort(booklist, new Comparator<Book2>() {
+      @Override
+      public int compare(Book2 o1, Book2 o2) {
+        int result = (o1.getYear() - o2.getYear())*(-1);
+        if(result  == 0) {
+          result = (o1.getSubject().length() - o2.getSubject().length()) * (-1);
+        }
+        if(result == 0){
+          result = (o1.getSubject().compareTo(o2.getSubject())) * (-1);
+        }
 
+
+        return result;
+      }
+    });
+    for(int i = 0 ; i <booklist.size() ; i++){
+      System.out.println(booklist.get(i).getYear() + " " + booklist.get(i).getSubject());
+    }
 
 
   }
