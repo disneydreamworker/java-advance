@@ -1,6 +1,7 @@
 package collection.map;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -48,6 +49,12 @@ public class HashMapEx {
 
     //엔트리 셋
     Set<Entry<Integer, String>> entrySet = map.entrySet(); //엔트리셋을 Set 클래스로 담는다. 엔트리 모두가 key가 되어서 중복 불가
-
+    Iterator<Entry<Integer,String>> entryIterator = entrySet.iterator();
+    while(entryIterator.hasNext()){
+      Entry<Integer,String> entry = entryIterator.next();
+      Integer key2 = entry.getKey();
+      String value2 = entry.getValue();
+      System.out.println("key :" + key2 + "\t" + "value : " + value2);
+    }
   }
 }
