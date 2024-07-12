@@ -1,5 +1,14 @@
 package lamda;
 
+import java.util.ArrayList;
+import java.util.List;
+
+@FunctionalInterface
+interface  FindMax{
+  int getMax(List<Integer> numbers);
+}
+
+
 public class LamdbaEx03 {
   /*
    *  1.  정수 리스트를 받아 정수를 반환하는 단일 추상 메서드 getMax()를 사용하여 FindMax 인터페이스를 생성하세요
@@ -10,8 +19,25 @@ public class LamdbaEx03 {
    *  5.  max 객체에서 getMax() 호출하여 최대값을 출력합니다.
    * */
 
-
   public static void main(String[] args) {
+FindMax max = (numbers) -> {
+         int maxNumber = Integer.MIN_VALUE;
+         for(int number : numbers){
+           if(number > maxNumber){
+             maxNumber = number;
+           }
+            }
+         return maxNumber;
+};
+
+ List<Integer> numberList = new ArrayList<>();
+ numberList.add(10);
+ numberList.add(20);
+ numberList.add(30);
+ numberList.add(0);
+ numberList.add(100);
+ int maxValue = max.getMax(numberList);
+    System.out.println(maxValue);
 
   }
 
