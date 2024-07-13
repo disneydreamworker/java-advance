@@ -1,6 +1,5 @@
 package collection.compare;
 
-import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
