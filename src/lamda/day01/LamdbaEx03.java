@@ -1,4 +1,4 @@
-package lamda;
+package lamda.day01;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,7 @@ import java.util.List;
 @FunctionalInterface
 interface  FindMax{
   int getMax(List<Integer> numbers);
+
 }
 
 
@@ -18,6 +19,7 @@ public class LamdbaEx03 {
    *  4.  정수리스트를 생성합니다.
    *  5.  max 객체에서 getMax() 호출하여 최대값을 출력합니다.
    * */
+
 
   public static void main(String[] args) {
 FindMax max = (numbers) -> {
