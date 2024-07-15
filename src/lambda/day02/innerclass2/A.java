@@ -1,4 +1,4 @@
-package lamda.day02.innerclass2;
+package lambda.day02.innerclass2;
 
 public class A {
      //A클래스(바깥클래스)의 인스턴스 필드와 메소드

@@ -1,4 +1,4 @@
-package lamda.day02.innerclass1;
+package lambda.day02.innerclass1;
 //로컬 클래스 : 생성자나 메소드 안에서 생성되는 클래스
 public class C {
         C(){

@@ -1,4 +1,4 @@
-package lamda.day02.innerInterface;
+package lambda.day02.innerInterface;
 
 public class Button {
 

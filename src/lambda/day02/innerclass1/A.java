@@ -1,4 +1,4 @@
-package lamda.day02.innerclass1;
+package lambda.day02.innerclass1;
 
 //중첩클래스
 public class A {

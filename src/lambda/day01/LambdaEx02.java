@@ -1,4 +1,4 @@
-package lamda.day01;
+package lambda.day01;
 
 /*
  * 1.두 개의 정수를 받아 정수를 반환하는 단일메서드 'operate'가 있는

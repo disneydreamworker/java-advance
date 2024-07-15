@@ -1,4 +1,4 @@
-package lamda.day02;
+package lambda.day02;
 
 @FunctionalInterface
 public interface Workable {
