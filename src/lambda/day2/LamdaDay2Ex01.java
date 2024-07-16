@@ -1,4 +1,4 @@
-package lambda;
+package lambda.day2;
 
 @FunctionalInterface
 public interface LamdaDay2Ex01 {

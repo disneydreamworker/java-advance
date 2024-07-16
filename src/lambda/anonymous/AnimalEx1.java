@@ -21,6 +21,15 @@ public class AnimalEx1 {
       }
     };
 
+    //익명 클래스
+    Animal1 dog2 = new Animal1() {
+
+      @Override
+      public String eat() {
+        return "강아지 얌얌";
+      }
+    };
+
     String result = dog.eat();
     System.out.println(result);
   }

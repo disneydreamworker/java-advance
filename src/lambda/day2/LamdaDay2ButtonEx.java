@@ -1,4 +1,4 @@
-package lambda;
+package lambda.day2;
 
 public class LamdaDay2ButtonEx {
 

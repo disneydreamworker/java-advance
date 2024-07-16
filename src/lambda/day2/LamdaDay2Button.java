@@ -1,4 +1,4 @@
-package lambda;
+package lambda.day2;
 
 public class LamdaDay2Button {
 //함수형 인터페이스 정의

@@ -1,4 +1,4 @@
-package lambda;
+package lambda.day1;
 
 public class LamdaEx02 {
 

@@ -3,6 +3,8 @@ package lambda.innerclass1;
 public class DD {
   public void method3(int n){ // final int n
     int var = 1; // = final int var
+  // 로컬 변수를 로컬클래스에서 사용할 경우 로컬변수는 final특성을 부여한다.
+  //값을 읽을 수만 있고, 값을 수정할 수 없도록 제한 (로컬 클래스 내부에서 값을 변경불가 하도록 제한한다.)
 
     //위 method3의 로컬 변수는
     class E {
