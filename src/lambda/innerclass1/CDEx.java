@@ -1,4 +1,4 @@
-package lamda.innerclass;
+package lambda.innerclass1;
 
 public class CDEx {
 

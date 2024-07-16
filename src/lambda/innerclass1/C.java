@@ -1,4 +1,4 @@
-package lamda.innerclass;
+package lambda.innerclass1;
 
 //Nested Class - 로컬 클래스
 //생성자와 메서드 안에서 생성되는 클래스

@@ -1,4 +1,4 @@
-package lamda.innerclass;
+package lambda.innerclass1;
 
 //이너클래스
 //Class 안에 Class를 만들어서 긴밀한 관계를 만들어 상호작용하기 위해 중첩 클래스를 생성한다

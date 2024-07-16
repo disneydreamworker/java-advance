@@ -1,4 +1,4 @@
-package lamda.innerclass;
+package lambda.innerclass1;
 
 public class DD {
   public void method3(int n){ // final int n
