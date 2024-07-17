@@ -17,6 +17,11 @@ public interface Consumer<T>{
 }*/
 
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.Stack;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -34,8 +39,10 @@ public class FunctionInterfaceEx {
     Function<String , Integer> function = String::length;
     System.out.println(function.apply("Hello Function Interface!"));
 
-    Predicate<String> predicate = (str->str.equals("very pretty"));
+    Predicate<String> predicate = str-> false;
     System.out.println(predicate.test("pretty"));
+
+
 
   }
 
