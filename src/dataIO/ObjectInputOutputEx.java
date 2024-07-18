@@ -25,13 +25,13 @@ public class ObjectInputOutputEx {
     int[] ints = {10,20,30};
     String greeting = "Hello";
 
-    //객체를 역직렬화 해서 파일에 저장하기
+    //객체를 직렬화 해서 파일에 저장하기
     oos.writeObject(member);
     oos.writeObject(product);
     oos.writeObject(ints);
     oos.writeObject(greeting);
 
-    oos.flush();
+    oos.flush(); //비동기 환경인 경우에 버퍼를 비워내지 않으면 다른 작업자가 버퍼에 남은 데이터로 입출력할 수 있는 가능성이 존재
     oos.close();
     fos.close();
 
