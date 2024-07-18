@@ -1,0 +1,15 @@
+1. Gson ?
+Java에서 Json 객체를 파싱하고, 생성하기 위해 사용되는 구글에서 개발한 오픈 소스이다.
+JavaObject를 Json 문자열로 변환할 수 있고, Json 문자열을 Java Object로 변환할 수 있다.
+2. 직접 라이브러리를 다운받아 프로젝트에 추가
+    https://search.maven.org/artifact/com.google.code.gson/gson/2.11.0/jar?eh=
+3. Gson 객체 생성 2가지
+   - new Gson()
+   - new GsonBuilder.create()
+   GsonBuilder란?
+    구글의 Gson 라이브러리 에서 제공하는 객체 생성 도구
+    -Gson 객체 생성
+    -설정 옵션을 통해 사용자가 원하는 형태와 기능으로 Gson 객체를 커스터마이징 할 수 있게 한다.
+    -JSON데이터의 직렬화와 역직렬화 과정에서 발생할 수 있는 여러 상황에 대응하며, 효율적이고
+     안정적인 데이터 처리를 지원한다.
+
