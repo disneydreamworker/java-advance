@@ -125,7 +125,9 @@ public class UtilJson {
 
     productInfo.itemList = new ItemList(array);
 
-    System.out.println(productInfo.toString());
+    System.out.println("ProductInfo 클래스 출력하기");
+    System.out.println(productInfo);
+
   }
 
   public static void parseJsonDataUseIterator(JSONObject jsonObject) {
