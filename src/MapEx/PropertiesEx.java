@@ -18,5 +18,4 @@ public class PropertiesEx {
     System.out.println(url);
 
   }
-
 }
